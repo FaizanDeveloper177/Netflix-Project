@@ -1,0 +1,387 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+ 
+*{
+  margin : 0 ; 
+  padding : 0 ;
+  box-sizing : border-box ;
+  font-family: 'Poppins', sans-serif;
+
+}
+html,body{
+  background-color :  black ;
+}
+.main{
+  height : 100vh ;
+  background-image: url(netflex\ background\ image.jpg) ;
+  background-position: center center  ;
+  background-repeat : no-repeat ;
+  background-size : max(1200px ,100vw);
+  position : relative ;
+}
+.box{
+  height : 100vh ;
+  width : 100% ;
+  opacity: 0.69 ;
+  background-color : black ;
+  position : absolute ;
+  top : 0; 
+}
+.navbar{
+  display : flex ;
+  align-items: center ;
+  max-width : 92vw;
+  margin : auto ;
+  justify-content : space-between;
+  height : 62px ;
+  position : relative ;
+}
+.navbar button{
+  background-color :  #e50914 ;
+  padding : 7px 15px;
+  color : white ;
+  border : 2px solid #e50914 ;
+  font-size : 15px ;
+  border-radius : 5px ;
+  z-index : 2 ;
+  position : relative  ;
+  font-weight : 700 ;
+  top : 12px ;
+  cursor: pointer;
+}
+.navbar img{
+  color : #e50914;
+  width : 150px ;
+  z-index : 2 ;
+  position : absolute;
+  top : 25px ;
+  
+}
+.hero {
+  font-family: 'Martel Sans', sans-serif;
+  height : calc(100vh-62px);
+  display : flex ;
+  align-items:center;
+  justify-content : center ;
+  color : white ;
+  flex-direction : column ;
+  gap : 30px ;
+  
+}
+.hero #textsize1{
+  font-size : 4vw ;
+  color : white ;
+  font-weight : 900 ;
+  z-index : 10 ;
+  position : relative ;
+  margin-top : 30vh ;
+
+  
+}
+.hero #textsize2{
+  font-size : 2.7vw ;
+  color : white ;
+  font-weight : 400 ;
+  z-index : 5;
+  
+  
+  
+}
+.hero #textsize3{
+  font-size : 2.4vw ;
+  color : white ;
+  font-weight : 300 ;
+  z-index : 5 ;
+}
+
+ .identity{
+  display : flex ;
+  align-items: center ;
+  position : relative ;
+  
+}
+ .identity input{
+    padding : 1.8vw 15vw 1.8vw 1vw  ;
+    padding-left: none ;
+    background-color: rgba(23, 23, 23, 0.4);
+    border: 1px solid  white  ;
+    border-radius : 4px ;
+    color : white ;
+    font-size : 15px ;
+    z-index : 10 ;
+    font-weight : 700 ;
+    
+
+}
+.identity button {
+  padding : 1.3vw 3vw;
+  background-color : red   ;
+  color : white ;
+  font-size : 22px ;
+  border : 2px solid   red ;
+  border-radius : 5px ;
+  z-index : 10 ; 
+  font-weight : 700 ;
+  position : relative ;
+  left : 8px ;
+  cursor : pointer ;
+}
+.lineseparation{
+  height : 8px ;
+  background-color : #232323 ;
+} 
+#section1{
+  height : 70vh ;
+  width : 100% ;
+
+}
+#textsection{
+  height : 100% ;
+  width : 75% ;
+  
+  color : white  ;
+  display : flex ;
+  align-items :  center ;
+  justify-content: center ;
+  flex-direction : column ;
+  
+}
+#section1{
+  display : flex ;
+}
+.frame video{
+
+  position : relative ;
+  bottom : 300px ;
+  left : 65px;
+  width : 365px ;
+  /* z-index : -1 ; */
+}
+section .frame img{
+  position : relative ;
+  z-index : 10 ;
+
+}
+section .frame video{
+  z-index : 0 ;
+}
+#textsection  .textsec1{
+  font-size : 4vw ;
+  font-weight : 900 ;
+
+}
+#textsection .textsec2{
+  font-size: 2.2vw ;
+  font-weight : 500 ;
+  margin-top : 20px ;
+  margin-left : 25px ;
+  line-height : 2rem ;
+}
+#textsection {
+  padding : 0px 20px ;
+}
+#section2{
+  height : 70vh ;
+  width : 100% ;
+}
+#section2{
+  display : flex ;
+  align-items : center ;
+}
+.downloadtext {
+  color : white ;
+  display : flex ;
+  align-items : center ;
+  flex-direction : column ;
+  justify-content : center ;
+}
+.downloadtext #textpart1{
+  font-size : 4.5vw ;
+  font-weight : 900 ;
+  color : white ;
+  z-index : 10 ;
+}
+.downloadtext #textpart2{
+  font-size : 2.4vw ;
+  font-weight : 400 ;
+  margin-top : 15px ;
+}
+#section3{
+  height : 60vh ;
+  width : 100% ;
+  
+
+}
+#textcontent{
+  width : 50% ;
+  height : 100% ;
+  color : white ;
+  display : flex ;
+  align-items: flex-start ;
+  flex-direction : column ;
+  
+}
+.text1{
+  margin-top : 60px ;
+  font-size : 5vw ;
+  color : white ;
+  font-weight : 900 ;
+  margin-left : 70px ;
+
+}
+.text2{
+  font-size : 5vw ;
+  color : white ;
+  font-weight : 900 ;
+  margin-left : 70px ;
+
+}
+.text3{
+  font-size : 2.6vw ;
+  margin-left : 50px  ;
+  font-weight : 400 ;
+  margin-top : 20px ;
+  margin-left : 70px ;
+
+}
+#section4 {
+  height : 70vh ;
+  display : flex ;
+  align-items : center ;
+}
+.minkoprofile{
+  color : white ;
+  display : flex ;
+  flex-direction : column ;
+  
+
+  
+}
+.tinkoimage{
+  width : 50% ;
+  
+}
+#childs {
+  font-size : 4vw ;
+  color : white  ;
+  font-weight : 900 ;
+  z-index : 10 ;
+}
+#childsnetflix{
+  font-size : 2.2vw;
+  color : white ;
+  font-weight : 700 ;
+  margin-right : 20px ;
+  margin-top : 20px ;
+  z-index : 10 ;
+  line-height : 2rem ;
+}
+.faq{
+  height : 120vh ;
+
+}
+.faq h2{
+  color : white ;
+  text-align : center ;
+  margin-top : 50px ;
+  font-size : 4.4vw ;
+  font-weight : 900 ;
+}
+.faqbox{
+  transition: all;
+  transition-duration: 3s ;
+  transition-timing-function: ease-out ;
+  height : 80px ;
+  max-width : 95% ;
+  color : white ;
+  background-color : #2d2d2d ;
+  margin-top : 22px ;
+  margin-left : 25px ;
+  display : flex ;
+  justify-content : space-between ;
+  align-items : center ;
+  font-size : 25px ;
+  padding : 0px 24px ;
+  z-index : 10 ;
+  cursor : pointer ;
+}
+.faqbox:hover{
+  background-color : black ;
+  color : white ;
+  max-width : 60% ;
+}
+
+.faqbox i{
+  font-size : 40px ;
+  font-weight : 100 ;
+}
+footer{
+  display : grid ;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.footeritems{
+  margin-top : 100px ;
+  margin-left  : 30px ;
+  display : flex ;
+  flex-direction : column ;
+}
+footer {
+  height : 60vh ;
+  width : 100% ;
+}
+.footeritems a{
+  /* text-decoration: none ; */
+  color : white ;
+  font-size : 15px ;
+  padding : 10px 0px ;
+}
+footer select{
+  width : 120px ;
+  height : 30px ;
+  margin-left : 30px ;
+  text-align : center ;
+  background-color : rgba(0, 0, 0, 0) ;
+  color : white ;
+  border-radius : 4px ;
+  
+}
+.footerend{
+  color : white ;
+  margin : 20px 0px 0px 30px ;
+  font-size : 12px ;
+}
+#footerbox{
+  display : flex  ;
+  flex-direction : column ;
+}
+
+footer select:active {
+  border : 4px solid white ;
+  border-radius : 5px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
